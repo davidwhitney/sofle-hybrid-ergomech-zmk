@@ -6,6 +6,10 @@ if SHIELD_SOFLE_ERGOMECH_LEFT
 config ZMK_KEYBOARD_NAME
     default "Ergomech Sofle"
 
+endif
+
+if SHIELD_SOFLE_ERGOMECH_RIGHT
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
