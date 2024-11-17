@@ -38,12 +38,12 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE   &kp N1    &kp N2    &kp N3     &kp N4  &kp N5   &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5
-&kp ESC     &kp Q     &kp W     &kp E      &kp R   &kp T    &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T
-&kp TAB     &kp A     &kp S     &kp D      &kp F   &kp G    &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G
-&kp LSHFT   &kp Z     &kp X     &kp C      &kp V   &kp B    &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B
-&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &mo 0   &kp RET  &kp SPACE       &kp LEFT_ALT  &kp I         &kp M         &kp ENTER
-                                                            &kp ENTER       &kp RIGHT     &kp UP_ARROW  &kp LEFT      &kp DOWN
+&none  &none  &none  &none  &none  &none  &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5
+&none  &none  &none  &none  &none  &none  &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T
+&none  &none  &none  &none  &none  &none  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G
+&none  &none  &none  &none  &none  &none  &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B
+&none  &none  &none  &none  &none  &none  &kp SPACE       &kp LEFT_ALT  &kp I         &kp M         &kp ENTER
+                                          &kp ENTER       &kp RIGHT     &kp UP_ARROW  &kp LEFT      &kp DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_DN &inc_dec_kp PG_UP PG_UP>;
